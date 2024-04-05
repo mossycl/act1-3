@@ -10,10 +10,10 @@ body{
     margin-right:-7px*/
 }
 .navegacion {
-    /*position:fixed;*/
+    position:fixed;
     background-color:#0A1C40;
     width:20%;
-    height:55rem;
+    height:100%;
     /*float:left;*/
 }
 .navegacion ul{
@@ -31,48 +31,81 @@ body{
     margin-bottom:5px;
     padding:10%;
 }
-.navegacion ul li:hover{
-    background-color: #254559;
-    transition:.3s;
+
+.navegacion h1{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.navegacion ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+}
+
+.navegacion ul li a:hover{
+    color: #254559;
+    transition:.2s ease-in;
 }
 .bderecho {
+    display:flex;
+    flex-direction:column;
     width:80%;
+    margin-left:20%;
     background-color:white;
-    /*margin-top:-1.09rem*/
-    margin:0;
     text-align: center;
-    color:white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .bderecho h1, h2{
     text-transform: uppercase;
-    margin:0;
+    color:white;
+}
+.parr-blanco {
+    color:white;
 }
 .columna1 {
     background-color:#f29979;
+    padding-top:20px;
+    padding-bottom:20px;
     padding-left:25px;
     padding-right:25px;
-    height:13.75rem;
-    margin:0;
+    min-height:13.75rem;
 }
 .columna2 {
-    background-color:#f25790;
+    background-color:#f2db94;
+    padding-top:20px;
+    padding-bottom:20px;
     padding-left:25px;
     padding-right:25px;
-    height:13.75rem;
-    margin:0;
+    min-height:13.75rem;
 }
 .columna3 {
-    background-color:#f2db94;
+    background-color:#254559;
+    padding-top:20px;
+    padding-bottom:20px;
     padding-left:25px;
     padding-right:25px;
-    height:13.75rem;
-    margin:0;
+    min-height:13.75rem;
 }
 .columna4 {
-    background-color:#254559;
+    background-color:#f2db94;
+    padding-top:20px;
+    padding-bottom:20px;
     padding-left:25px;
     padding-right:25px;
-    height:13.75rem;
-    margin:0;
+    min-height:13.75rem;
+}
+.columna5 {
+    background-color:#0A1C40;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    min-height:13.75rem;
+}
+.columna5 label {
+    color:white;
 }
